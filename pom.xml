@@ -15,7 +15,7 @@
             <configuration>
                 <descriptor>assembly/bin.xml</descriptor>
                 <tarLongFileMode>posix</tarLongFileMode>
-            </configuration>]
+            </configuration>
             <executions>
                 <execution>
                     <id>create-archive</id>
