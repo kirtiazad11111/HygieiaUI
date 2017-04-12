@@ -4,8 +4,12 @@
   <packaging>pom</packaging>
   <name>${project.groupId}:${project.artifactId}</name>
   <description>Hygieia UI module</description>
-  <url>https://github.com/capitalone/Hygieia</url>
-    <build>
+  <url>https://github.com/capitalone/Hygieia</url> 
+        <groupId>com.capitalone.dashboard</groupId> 
+        <artifactId>Hygieia</artifactId>  
+        <version>2.0.4-SNAPSHOT</version> 
+	
+	    <build>
     <plugins>
         <plugin>
             <artifactId>maven-assembly-plugin</artifactId>
@@ -13,7 +17,7 @@
             <configuration>
                 <descriptor>assembly/bin.xml</descriptor>
                 <tarLongFileMode>posix</tarLongFileMode>
-            </configuration>
+            </configuration>]
             <executions>
                 <execution>
                     <id>create-archive</id>
