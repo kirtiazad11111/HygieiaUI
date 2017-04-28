@@ -62,7 +62,7 @@ var browserSync = require('browser-sync'),
     config = {
         module: 'hygieia-dashboard',
         local: null,
-        api: 'http://54.202.143.234:30054',
+        api: 'http://35.163.157.107:30054',
         refresh: 60
     };
 
