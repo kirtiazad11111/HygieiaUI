@@ -15,7 +15,7 @@ spec:
         image: 54.202.110.124:8123/hygieia_ui:latest
         resources:
           requests:
-            cpu: 700m
+            cpu: 400m
             memory: 500Mi
         ports:
         - containerPort: 80
