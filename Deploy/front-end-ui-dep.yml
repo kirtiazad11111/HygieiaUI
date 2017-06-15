@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: front-end-ui
-        image: 54.202.110.124:8123/hygieia_ui:latest
+        image: 34.211.149.74:8123/hygieia_ui:latest
         resources:
           requests:
             cpu: 50m
